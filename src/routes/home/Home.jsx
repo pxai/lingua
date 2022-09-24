@@ -1,5 +1,4 @@
 import { Outlet } from 'react-router-dom'; 
-import Entries from '../../components/entries/entries.component';
 import Footer from '../../components/footer/footer.component';
 
 const Home = () => {
@@ -34,7 +33,6 @@ const Home = () => {
 
   return (
     <div id="contents">
-       <Entries categories={categories} />
        <Outlet />
        <Footer />
     </div>

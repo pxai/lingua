@@ -4,6 +4,6 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />, {wrapper: MemoryRouter});
-  const linkElement = screen.getByText(/bidali/i);
+  const linkElement = screen.getByText(/Lingua App/i);
   expect(linkElement).toBeInTheDocument();
 });
